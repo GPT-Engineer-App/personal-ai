@@ -34,7 +34,7 @@ const Index = () => {
         </Text>
         <VStack spacing={4} overflowY="auto" maxH="300px">
           {messages.map((message, index) => (
-            <Box key={index} alignSelf={message.sender === "user" ? "flex-end" : "flex-start"} bg={message.sender === "user" ? "blue.200" : "green.200"} p={3} borderRadius="lg">
+            <Box key={index} alignSelf={message.sender === "user" ? "flex-end" : "flex-start"} bg={message.sender === "user" ? "blue.200" : "green.200"} p={3} borderRadius="lg" fontSize="lg" fontWeight="medium">
               {message.text}
             </Box>
           ))}
