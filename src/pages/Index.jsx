@@ -28,10 +28,10 @@ const Index = () => {
 
   return (
     <VStack spacing={4} p={5}>
-      <Box w="100%" p={5} bg="gray.100" borderRadius="lg">
-        <Text fontSize="2xl" mb={4} fontWeight="bold" display="flex" alignItems="center">
+      <Box w="100%" p={5} bg="black" borderRadius="lg">
+        <Text fontSize="2xl" mb={4} fontWeight="bold" display="flex" alignItems="center" color="black">
           <FaRobot />
-          &nbsp;AI Chatbot
+          &nbsp;Marie
         </Text>
         <VStack spacing={4} overflowY="auto" maxH="300px">
           {messages.map((message, index) => (
